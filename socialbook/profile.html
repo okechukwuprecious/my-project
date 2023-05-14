@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SocialBook Profile Page - Kulkeh</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Symbols+Sharp"
+      rel="stylesheet"
+    />
+
+    <!-- Google Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/302a5f40c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html"> <img src="images/logo.png" class="logo" /></a>
+        <ul>
+          <li><span class="material-icons-outlined"> notifications </span></li>
+          <li><span class="material-icons-outlined"> email </span></li>
+          <li><span class="material-icons-outlined"> ondemand_video </span></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <div class="search-box">
+          <span class="material-symbols-sharp"> search </span>
+          <input type="text" placeholder="Search" />
+        </div>
+
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/kulkeh.jpg" />
+        </div>
+      </div>
+
+      <!--====================================== SETTINGS MENU =======================================-->
+
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/kulkeh.jpg" />
+            <div>
+              <p>Ndife Precious</p>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="user-profile">
+            <img src="images/feedback.png" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" />
+            <a href="#"
+              >settings & Privacy <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" />
+            <a href="#"
+              >Help & Support <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility <img src="images/arrow.png" width="10px"
+            /></a>
+          </div>
+
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" />
+            <a href="#">Logout <img src="images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--====================================== PROFILE PAGE =======================================-->
+
+    <div class="profile-container">
+      <img src="images/cover.png" class="cover-img" />
+      <div class="profile-details">
+        <div class="pd-left">
+          <div class="pd-row">
+            <img src="images/profile.png" class="pd-img" />
+            <div>
+              <h3>Akanji Stones</h3>
+              <p>3100 Friends - 34 mutual</p>
+              <img src="images/member-1.png" />
+              <img src="images/member-2.png" />
+              <img src="images/member-3.png" />
+              <img src="images/member-4.png" />
+            </div>
+          </div>
+        </div>
+
+        <div class="pd-right">
+          <button type="button">
+            <img src="images/add-friends.png" /> Friend
+          </button>
+          <button type="button">
+            <img src="images/message.png" /> Message
+          </button>
+          <br />
+          <a href=""><img src="images/more.png" /></a>
+        </div>
+      </div>
+
+      <div class="profile-info">
+        <div class="info-col">
+          <div class="profile-intro">
+            <h3>Intro</h3>
+            <p class="intro-text">
+              Forgive yourself and focus on the future.
+              <img src="images/feeling.png" />
+            </p>
+            <hr />
+            <ul>
+              <li>
+                <img src="images/profile-job.png" alt="" /> Director at
+                Kullbeats Production
+              </li>
+              <li>
+                <img src="images/profile-study.png" alt="" /> Studied at Oxford
+                University
+              </li>
+              <li>
+                <img src="images/profile-study.png" alt="" /> Went to Lagos
+                School of Music
+              </li>
+              <li>
+                <img src="images/profile-home.png" alt="" /> Lives in Lagos,
+                Nigeria
+              </li>
+              <li>
+                <img src="images/profile-location.png" alt="" /> From Anambra,
+                Nigeria
+              </li>
+            </ul>
+          </div>
+
+          <div class="profile-intro">
+            <div class="title-box">
+              <h3>Photos</h3>
+              <a href="">All Photos</a>
+            </div>
+
+            <div class="photo-box">
+              <div><img src="images/photo1.png" /></div>
+              <div><img src="images/photo2.png" /></div>
+              <div><img src="images/photo3.png" /></div>
+              <div><img src="images/photo4.png" /></div>
+              <div><img src="images/photo5.png" /></div>
+              <div><img src="images/photo6.png" /></div>
+            </div>
+          </div>
+
+          <div class="profile-intro">
+            <div class="title-box">
+              <h3>Friends</h3>
+              <a href="">All Friends</a>
+            </div>
+            <p>3100 (34 mutual)</p>
+            <div class="friends-box">
+              <div>
+                <img src="images/member-1.png" />
+                <p>Sera O</p>
+              </div>
+              <div>
+                <img src="images/member-2.png" />
+                <p>Johnson C</p>
+              </div>
+              <div>
+                <img src="images/member-3.png" />
+                <p>Patience E</p>
+              </div>
+              <div>
+                <img src="images/member-4.png" />
+                <p>Paul T</p>
+              </div>
+              <div>
+                <img src="images/member-5.png" />
+                <p>Timothy A</p>
+              </div>
+              <div>
+                <img src="images/member-6.png" />
+                <p>Nathan E</p>
+              </div>
+              <div>
+                <img src="images/member-7.png" />
+                <p>Israel N</p>
+              </div>
+              <div>
+                <img src="images/member-8.png" />
+                <p>Maryann O</p>
+              </div>
+              <div>
+                <img src="images/member-9.png" />
+                <p>Nova A</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-col">
+          <div class="write-post-container">
+            <div class="user-profile">
+              <img src="images/kulkeh.jpg" />
+              <div>
+                <p>Ndife Precious</p>
+                <small
+                  >Public
+                  <span class="material-symbols-sharp">
+                    arrow_drop_down
+                  </span></small
+                >
+              </div>
+            </div>
+
+            <div class="post-input-container">
+              <textarea
+                rows="3"
+                placeholder="What's on your mind, Precious?"
+              ></textarea>
+
+              <div class="add-post-links">
+                <a href="#"><img src="images/live-video.png" /> Live Video</a>
+                <a href="#"><img src="images/photo.png" /> Photo/Video</a>
+                <a href="#"
+                  ><img src="images/feeling.png" /> Feeling/Activity</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-4.png" />
+                <div>
+                  <p>Akanji Stones</p>
+                  <span>April 20 2023, 1:20 PM</span>
+                </div>
+              </div>
+
+              <a href="#"
+                ><span class="material-icons-sharp"> more_vert </span></a
+              >
+            </div>
+
+            <p class="post-text">
+              Subscribe <span>@Kullbeats</span> Youtube channel to listen to
+              more quality afrobeat, hip hop, rnb and amapiano instrumental.
+              <a href="#">#Kullbeats</a> <a href="#">#Youtubechannel</a>
+            </p>
+            <img src="images/feed-image-1.png" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like-blue.png" />750</div>
+                <div><img src="images/comments.png" />86</div>
+                <div><img src="images/share.png" />32</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/member-4.png" /><span
+                  class="material-symbols-sharp"
+                >
+                  arrow_drop_down
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-2.png" />
+                <div>
+                  <p>Dickson John</p>
+                  <span>April 26 2023, 4:34 PM</span>
+                </div>
+              </div>
+
+              <a href="#"
+                ><span class="material-icons-sharp"> more_vert </span></a
+              >
+            </div>
+
+            <p class="post-text">
+              Great video by <span>@Kullbeats</span>!. Please friends subscribe
+              to his Youtube channel to listen to more quality instrumental.
+              <a href="#">#Kullbeats</a> <a href="#">#Youtubechannel</a>
+            </p>
+            <img src="images/feed-image-3.png" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like.png" />335</div>
+                <div><img src="images/comments.png" />52</div>
+                <div><img src="images/share.png" />10</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/member-2.png" /><span
+                  class="material-symbols-sharp"
+                >
+                  arrow_drop_down
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-1.png" />
+                <div>
+                  <p>Mary Jenna</p>
+                  <span>March 30 2023, 12:00 PM</span>
+                </div>
+              </div>
+
+              <a href="#"
+                ><span class="material-icons-sharp"> more_vert </span></a
+              >
+            </div>
+
+            <p class="post-text">
+              Please friends like and share this video and also Subscribe to
+              <span>@Kullbeats</span> Youtube channel to listen to more quality
+              beats. <a href="#">#Kullbeats</a> <a href="#">#Youtubechannel</a>
+            </p>
+            <img src="images/feed-image-5.png" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like-blue.png" />1.1k</div>
+                <div><img src="images/comments.png" />120</div>
+                <div><img src="images/share.png" />56</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/member-1.png" /><span
+                  class="material-symbols-sharp"
+                >
+                  arrow_drop_down
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-3.png" />
+                <div>
+                  <p>Sera Alison</p>
+                  <span>March 28 2023, 6:30 PM</span>
+                </div>
+              </div>
+
+              <a href="#"
+                ><span class="material-icons-sharp"> more_vert </span></a
+              >
+            </div>
+
+            <p class="post-text">
+              Great video by <span>@Kullbeats</span>!. Please friends subscribe
+              to his Youtube channel to listen to more quality instrumental.
+              <a href="#">#Kullbeats</a> <a href="#">#Youtubechannel</a>
+            </p>
+            <img src="images/feed-image-4.png" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like.png" />1.4k</div>
+                <div><img src="images/comments.png" />200</div>
+                <div><img src="images/share.png" />75</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/member-3.png" /><span
+                  class="material-symbols-sharp"
+                >
+                  arrow_drop_down
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-5.png" />
+                <div>
+                  <p>James Paul</p>
+                  <span>March 25 2023, 14:00 PM</span>
+                </div>
+              </div>
+
+              <a href="#"
+                ><span class="material-icons-sharp"> more_vert </span></a
+              >
+            </div>
+
+            <p class="post-text">
+              Please friends like and share this video and also Subscribe to
+              <span>@Kullbeats</span> Youtube channel to listen to more quality
+              beats. <a href="#">#Kullbeats</a> <a href="#">#Youtubechannel</a>
+            </p>
+            <img src="images/feed-image-2.png" class="post-img" />
+
+            <div class="post-row">
+              <div class="activity-icons">
+                <div><img src="images/like-blue.png" />1.7k</div>
+                <div><img src="images/comments.png" />342</div>
+                <div><img src="images/share.png" />102</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="images/member-5.png" /><span
+                  class="material-symbols-sharp"
+                >
+                  arrow_drop_down
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--====================================== FOOTER =======================================-->
+
+    <div class="footer">
+      <p>Copyright 2023 - © Kulkeh 💙</p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
